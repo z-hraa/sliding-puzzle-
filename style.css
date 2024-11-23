@@ -1,0 +1,29 @@
+.tile1 {
+    width: 150px;
+    height: 150px; 
+    background: (url(https://i.postimg.cc/6QHTHb70/IMG-6575.jpg))
+    background-position: left top;
+}
+
+.tile2 {
+    width: 150px;
+    height: 150px;
+    background:
+    background-position: center top;
+
+}
+
+.tile3 {
+    width: 150px;
+    height: 150px;
+    background:
+    background-position: right top; 
+}
+
+.tile4 {
+    width: 150px;
+    height: 150px;
+    background:    
+    background-positon: left center
+}
+
