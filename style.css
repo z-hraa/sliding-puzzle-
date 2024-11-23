@@ -1,14 +1,19 @@
+
+BODY{
+    background: blanchedalmond;
+}
+
+
 .tile1 {
     width: 150px;
     height: 150px; 
-    background: (url(https://i.postimg.cc/6QHTHb70/IMG-6575.jpg))
-    background-position: left top;
-}
+    background: (url(https://i.postimg.cc/6QHTHb70/IMG-6575.jpg));
+    background-position: left top;}
 
 .tile2 {
     width: 150px;
     height: 150px;
-    background:
+    background: url(https://i.postimg.cc/2ydDt3cD/IMG-6576.jpg);
     background-position: center top;
 
 }
@@ -16,14 +21,100 @@
 .tile3 {
     width: 150px;
     height: 150px;
-    background:
+    background:url(https://i.postimg.cc/NGkSWhGB/IMG-6576.jpg);
     background-position: right top; 
 }
 
 .tile4 {
     width: 150px;
     height: 150px;
-    background:    
-    background-positon: left center
+    background:url(https://i.postimg.cc/bNvCWsF9/IMG-6576.jpg);
+    background-position: left center
 }
+
+.tile5 {
+     width: 150px;
+     height: 150px;
+     background: url(https://i.postimg.cc/qMgwQWzm/IMG-6576.jpg);
+     background-position: center center;
+}
+
+.tile6{
+    width: 150px;
+    height: 150px;
+    background: url(https://i.postimg.cc/YStmDmdp/IMG-6576.jpg);
+    background-position: right center;
+}
+
+.tile7 {
+    width: 150px;
+    height: 150px;
+    background: url(https://i.postimg.cc/W496MnsR/IMG-6576.jpg);
+    background-position:left bottom;
+}
+
+.tile8 {
+    width: 150px;
+    height: 150px;
+    background: url(https://i.postimg.cc/zGvfyS2H/IMG-6576.jpg);
+    background-position: center bottom;
+}
+
+.tile9 {
+    width: 150px;
+    height: 150px;
+    background: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+
+
+#puzzle{
+    display: grid;
+    grid-template-columns: repeat(3,150);
+    grid-template-rows:repeat (3,150);
+    gap: 1px;
+    width: 425px;
+    margin: 20px auto;
+    background: blanchedalmond;
+    border: 2px solid black;
+}
+
+.tile{
+    width: 150px;
+    height: 150px;
+    background-size: 450px 450px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.tile1 { background-position: 0px 0px;}
+.tile2 {background-position: -150px 0px;}
+.tile3 {background-position: -300px 0px;}
+.tile4{ background-position: 0px -150px;}
+.tile5 {background-position: -150px -150px;}
+.tile6 {background-position: -300px -150px;}
+.tile7 {background-position: 0px -300px;}
+.tile8 {background-position: -150px -300px;}
+.tile9 { 
+    background: none;
+    border: 1px dashed grey;
+}
+
+
 
